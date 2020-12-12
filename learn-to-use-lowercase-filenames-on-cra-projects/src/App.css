@@ -55,9 +55,9 @@ html, body, * {
   box-sizing: border-box;
 }
 
-html {
+/* html {
   font-size: 62.5%;
-}
+} */
 body {
   background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
@@ -65,10 +65,10 @@ body {
   max-width: 1200px;
   margin: 50px auto;
   padding: 30px;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: center;
+  align-content: center; */
 }
 
 .cards {
@@ -82,7 +82,7 @@ body {
 .card {
   width: 30%;
   padding: 20px;
-  /* display: flex; */
+  display: flex;
   border-radius: 5px;
   box-shadow: 0 1px 6px -2px #000;
   background-color: #FFF;
@@ -91,29 +91,29 @@ body {
   margin-left: 20px;
 }
 
-.card main{
+.main{
   width: 60%;
   margin: 0 auto 30px;
 }
 
-.card img {
+img {
   width: 150px;
   height: 150px;
   border-radius: 3px;
   margin-right: 20px;
 }
 
-.card name {
+/* .name {
   font-size: 3.4rem;
-}
+} */
 
-.card p {
-  font-size: 1.4rem;
+.p {
+  /* font-size: 1.4rem; */
   margin-bottom: 3px;
 }
 
-.card username {
-  font-size: 1.8rem;
+.username {
+  /* font-size: 1.8rem; */
   font-style: italic;
   margin: 3px 0 10px;
 }

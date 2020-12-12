@@ -9,9 +9,9 @@ function UserCard(props) {
             <div className='card main'>
                 <img src = {props.user['avatar_url']} alt='User Avatar' />
                 <div className='card-info'>
-                    <h3 className='name'>{props.user.name || props.user.login}</h3>
+                    <h2 className='name'>{props.user.name || props.user.login}</h2>
                     <p className='userName'>{props.user.login}</p>
-                    <p>LocationL {props.user.location || 'Not available'}</p>
+                    <p>Location: {props.user.location || 'Not available'}</p>
                     <p>Followers: {props.user.followers}</p>
                     <p>Following: {props.user.following}</p>
                     <p>Bio: {props.user.bio || 'Not available'}</p>

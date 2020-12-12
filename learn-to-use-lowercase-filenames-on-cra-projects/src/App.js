@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import UserCard from './components/UserCard';
+import FollowerCard from './components/FollowerCard';
 import './App.css';
 
 class App extends Component {
@@ -39,6 +40,7 @@ componentDidMount() {
     return (
       <div className="container">
         <UserCard user={this.state.user} />
+        <FollowerCard followers={this.state.followers} />
       </div>
     );
   }
