@@ -71,18 +71,31 @@ body {
   align-content: center; */
 }
 
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.card-info {
+  margin: 0, auto;
+}
+
 .cards {
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-content: space-between;
+  flex-wrap: wrap;
+  /* padding: 50px, 0, 0; */
+  /* justify-content: space-between;
+  align-content: space-between; */
 }
 
 .card {
   width: 30%;
   padding: 20px;
-  display: flex;
+  /* display: flex; */
   border-radius: 5px;
   box-shadow: 0 1px 6px -2px #000;
   background-color: #FFF;
@@ -93,27 +106,28 @@ body {
 
 .main{
   width: 60%;
+  display: flex;
   margin: 0 auto 30px;
 }
 
-img {
+.card img {
   width: 150px;
   height: 150px;
   border-radius: 3px;
   margin-right: 20px;
 }
 
-/* .name {
+.card .name {
   font-size: 3.4rem;
-} */
+}
 
-.p {
+.card .p {
   /* font-size: 1.4rem; */
   margin-bottom: 3px;
 }
 
-.username {
-  /* font-size: 1.8rem; */
+.card .username {
+  font-size: 1.8rem;
   font-style: italic;
   margin: 3px 0 10px;
 }
